@@ -6,6 +6,10 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kadirahq/mongo-sharded-cluster"
@@ -23,7 +27,7 @@
   "homepage": "https://github.com/kadirahq/mongo-sharded-cluster",
   "dependencies": {
     "async": "1.4.x",
-    "mongodb": "^2.2.24",
+    "mongodb": "^4.17.2",
     "underscore": "1.8.x"
   },
   "devDependencies": {
