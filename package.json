@@ -3,16 +3,13 @@
   "version": "2.0.0",
   "description": "Shard MongoDB in the app layer and build a MongoDB cluster",
   "main": "lib/index.js",
+  "repository": "topeomot2/mongo-sharded-cluster",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
   "engines": {
     "node": "14.x",
     "npm": "6.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kadirahq/mongo-sharded-cluster"
   },
   "keywords": [
     "mongo",
